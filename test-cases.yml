@@ -1,0 +1,17 @@
+---
+- summary: |
+    Проверка регистрации в системе на несуществующим email адрес
+  requirement: |
+    Система должна отправить письмо с подверждением валидности email адреса
+  prerequisites: |
+    Открыта страница регистрации
+  test-data: |
+    Nickname = ILYAILYA Password = password email = qwwwqwqwqwwqwqw@mail.ru
+  steps:
+    - Вводим Nickname
+    - Вводим Password
+    - Вводим email
+    - Нажимаем кнопку "Submit"
+  expected-result: |
+    Система должна затребовать подтверждение валидности email адреса
+
