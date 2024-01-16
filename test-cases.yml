@@ -38,7 +38,7 @@
   prerequisites: |
     Открыто меню настройки новой игры
   test-data: |
-    Редактор новой игры, игровое задание
+    NO DATA
   steps:
     - Выбираем сложность игры 2 звезды
     - Выбираем game type with bot
@@ -75,7 +75,10 @@
   prerequisites: |
     Открыта заглавная страница сайта
   test-data: |
-    Форма регистриции и входа
+    Nickname = Vasya
+    Email = Vasya123@mail.ru
+    Password = qazwsxedc
+    Password Confirmation = Password
   steps:
     - Открыть форму регистрации
     - Ввести Nickname 
@@ -110,7 +113,7 @@
   prerequisites: |
     Открыта заглавная страница сайта
   test-data: |
-    Форма входа
+    Discord login + password
   steps:
     - Нажимаем sing in
     - Нажимаем sing in with Discord
@@ -126,7 +129,7 @@
   prerequisites: |
     Открыта заглавная страница сайта
   test-data: |
-    Форма входа
+    Github login + password
   steps:
     - Нажимаем sing in
     - Нажимаем sing in with Github
@@ -142,7 +145,7 @@
   prerequisites: |
     Открыт редактор создания новой игры
   test-data: |
-    Редактор новой игры, игровое задание
+    NO DATA
   steps:
     - Выбираем сложность игры 2 звезды
     - Выбираем game type with bot
@@ -158,7 +161,7 @@
   prerequisites: |
     Открыта главная страница сайта
   test-data: |
-    No data
+    NO DATA
   steps:
     - Нажимаем кнопку Try simple battle
   expected-result: |
